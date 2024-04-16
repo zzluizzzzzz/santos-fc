@@ -43,14 +43,20 @@ body {
 }
 
 .botao {
-        font-family: "Crakra Petch", sans-serif; /* definindo a fonte usada no botao */
+    font-family: "Crakra Petch", sans-serif; /* definindo a fonte usada no botao */
 	background-color: var(--botao-off); /* cor do botao "desligado" */
-	color: var(--branco); display: flex; /* cor da fonte */
+	color: var(--branco); 
+	display: flex; /* cor da fonte */
 	justify-content: center;
 	padding: 1em;
 	font-size: 18px;
 	align-items: center;
 	width: 100%;
+
+	border-bottom: 4px solid var(--botao-ativo); 
+	border-left: 2px solid var(--botao-ativo); 
+	border-right: 2px solid var(--botao-ativo);
+	border-top: none;
 }
 
 .botoes {
