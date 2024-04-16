@@ -13,7 +13,7 @@
 body {
 	background-color: var(--fundo);  /*configurando o body */
 	color: var(--branco);
-	font-family: 'Chakra Petch', sans-serif;
+	font-family: "Chakra Petch", sans-serif;
 
 	}	
 
@@ -43,7 +43,7 @@ body {
 }
 
 .botao {
-    font-family: 'Chakra Petch', sans-serif; /* definindo a fonte usada no botao */
+	font-family: "Chakra Petch", sans-serif; /* definindo a fonte usada no botao */
 	background-color: var(--botao-off); /* cor do botao "desligado" */
 	color: var(--branco); 
 	display: flex; /* cor da fonte */
