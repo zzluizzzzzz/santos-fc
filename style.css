@@ -63,15 +63,6 @@ body {
     display: block;
 }
 
-@media screen and (min-width: 768px) /*estabelece um valor mínimo para a exibição */
-{.botoes { display: flex;
-	}
-.botao:first-child { border-radius: 40px 0 0 0;
-}
-.botao:last-child { border-radius: 0 40px 0 0; /*arredonda as bordas dos botoes*/
-}
-}
-
 .abas-textos{
 	background-color: var(--texto-fundo);
 	padding: 40px;
@@ -100,4 +91,13 @@ body {
 .contador{
 	font-size: 20px;
 	text-align: center;
+}
+
+@media screen and (min-width: 768px) /*estabelece um valor mínimo para a exibição */
+{.botoes { display: flex;
+	}
+.botao:first-child { border-radius: 40px 0 0 0;
+}
+.botao:last-child { border-radius: 0 40px 0 0; /*arredonda as bordas dos botoes*/
+}
 }
