@@ -54,7 +54,7 @@ body {
 	border-top: none;
 }
 
-.ativo {
+.botao.ativo {
 	background-color: var(--botao-on);	/* definindo cores do botão ativo*/
 	border-bottom: 4px solid var(--verde);
 	}
