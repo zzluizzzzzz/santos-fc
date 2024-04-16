@@ -43,7 +43,7 @@ body {
 }
 
 .botao {
-        font-family: «Crakra Petch», sans-serif; /* definindo a fonte usada no botao */
+        font-family: "Crakra Petch", sans-serif; /* definindo a fonte usada no botao */
 	background-color: var(--botao-off); /* cor do botao "desligado" */
 	color: var(--branco); display: flex; /* cor da fonte */
 	justify-content: center;
