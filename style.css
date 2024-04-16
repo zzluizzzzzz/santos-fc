@@ -17,11 +17,6 @@ body {
 
 	}	
 
-.ativo {
-	background-color: var(--botao-on);	/* definindo cores do botão ativo*/
-	border-bottom: 4px solid var(--verde);
-	}		
-
 .conteudo-principal { 
 	display: flex;
 	flex-direction: column;
@@ -58,6 +53,11 @@ body {
 	border-right: 2px solid var(--ativo);
 	border-top: none;
 }
+
+.ativo {
+	background-color: var(--botao-on);	/* definindo cores do botão ativo*/
+	border-bottom: 4px solid var(--verde);
+	}
 
 .botoes {
        	display: block;
