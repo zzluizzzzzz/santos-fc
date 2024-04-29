@@ -4,7 +4,7 @@
 :root {
 	--roxo: #8412e1cf;		
 	--roxo: hsl(264, 51%, 43%);
-	--branco: #FFFFFF;
+	--preto: #040404;
 	--botao-on: #622a90;
 	--botao-off: rgba(112, 30, 170, 0.5);
 	--texto-fundo: rgba(110, 29, 164, 0.3);	/*definindo variáveis*/
